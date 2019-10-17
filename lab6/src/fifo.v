@@ -15,6 +15,8 @@ module fifo #(
     output [data_width-1:0] dout,
     output empty
 );
+    
+    
     assign full = 1'b1;
     assign empty = 1'b0;
     assign dout = 0;
